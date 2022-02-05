@@ -6,6 +6,10 @@ Laravel Packages has different type of important packages, such as:
 
 - Larastarters [laraveldaily/larastarters](https://github.com/LaravelDaily/Larastarters).
 
+- Profile update New email verify [protonemedia/laravel-verify-new-email](https://github.com/protonemedia/laravel-verify-new-email).
+
+
+
 ## Contributing
 
 Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).

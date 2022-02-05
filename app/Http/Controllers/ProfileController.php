@@ -20,8 +20,12 @@ class ProfileController extends Controller
 
         auth()->user()->update([
             'name' => $request->name,
-            'email' => $request->email,
+            //'email' => $request->email,
         ]);
+
+        if(auth()->user()->email != $request->email) {
+            auth()->user()->newEmail($request->email);
+        }
 
         return redirect()->back()->with('success', 'Profile updated.');
     }
